@@ -2,7 +2,7 @@ package Basics;
 
 public class DataTypes {
 
-    public void aboutDataTypes() {
+    public static void main(String[] args) {
 
         //byte,short,int,long
         byte age = 127;
@@ -29,12 +29,5 @@ public class DataTypes {
         System.out.println("double: " + cost);
         System.out.println("boolean: " + lightOn);
         System.out.println("char: " + character);
-
-    }
-
-    public static void main(String[] args) {
-
-        DataTypes object = new DataTypes();
-        object.aboutDataTypes();
     }
 }
