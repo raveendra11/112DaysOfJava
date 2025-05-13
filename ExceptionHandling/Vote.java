@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Vote {
 
-    public void verifyEligibility(int age) throws InvalidAgeException {
+    public void verifyEligibility(int age) throws CustomException {
 
-        if (age >= 18 && age > 0)
+        if (age >= 18)
             System.out.println("Eligible");
         else
-            throw new InvalidAgeException();
+            throw new CustomException();
 
     }
 
@@ -23,7 +23,7 @@ public class Vote {
 
             object.verifyEligibility(input.nextInt());
 
-        } catch (InvalidAgeException iae) {
+        } catch (CustomException iae) {
 
             System.out.println("Invalid age passed ");
         }
