@@ -12,7 +12,7 @@ public class TryCatchFinally {
             System.out.println(ae);
         }
         finally{
-            System.out.println("Finally block");
+            System.out.println("finally block");
         }
     }
 
