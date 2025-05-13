@@ -1,6 +1,6 @@
 package Multithreading;
 
-public class MyThread extends Thread {
+public class ThreadExtend extends Thread {
 
     public void run() {
         int i = 0;
@@ -13,7 +13,7 @@ public class MyThread extends Thread {
     }
 
     public static void main(String[] args) {
-        MyThread object = new MyThread();
+        ThreadExtend object = new ThreadExtend();
         object.start();
         int i = 0;
 
