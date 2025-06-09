@@ -7,7 +7,7 @@ public class Main {
         object.name="Ishu";
 
         Employee emp = new Employee();
-        emp.insertEmployee(100,"Ishu");
+        emp.insertEmployee(100,"Ishu",800000);
 
         Coyotes coyotes = new Coyotes(5,"juli");
     }
