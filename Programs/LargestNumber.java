@@ -11,6 +11,6 @@ public class LargestNumber {
                 largest = numbers[i];
             }
         }
-        System.out.println("largest number is : " + largest);
+        System.out.println("largest number is : " +largest);
     }
 }
