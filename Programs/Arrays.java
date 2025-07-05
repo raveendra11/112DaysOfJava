@@ -1,4 +1,4 @@
-package Arrays;
+package Programs;
 
 public class Arrays {
 
