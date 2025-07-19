@@ -4,7 +4,7 @@ public class Panther {
 
     public void doHunt(boolean hungry){
         if(!hungry)
-            System.out.println("Sorry! I'm not hungry.");
+            System.out.println("I'm not hungry.");
     }
 
     public static void main(String[] args) {
