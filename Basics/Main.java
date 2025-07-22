@@ -8,6 +8,7 @@ public class Main {
 
         Employee emp = new Employee();
         emp.insertEmployee(100,"Ishu",800000);
+        emp.insertEmployee(101,"Ravi",500000);
 
         Coyotes coyotes = new Coyotes(5,"juli");
     }
