@@ -15,6 +15,7 @@ public class Encaps {
     public static void main(String[] args) {
             Encaps object = new Encaps();
             object.setName("Ishu");
+            object.setName("Ravi");
         System.out.println(object.getName());
     }
 }
