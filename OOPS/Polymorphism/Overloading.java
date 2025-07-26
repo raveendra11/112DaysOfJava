@@ -17,5 +17,6 @@ public class Overloading {
         object.doOverload("grass", "water");
         object.doOverload("grass", "water", "milk");
         object.doOverload("amul",5);
+        object.doOverload("ice",1);
     }
 }
