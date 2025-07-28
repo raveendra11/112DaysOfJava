@@ -10,5 +10,7 @@ public class ConstructorParam {
 
     public static void main(String[] args) {
         ConstructorParam object = new ConstructorParam(27, "Ishu");
+        ConstructorParam object = new ConstructorParam(27, "Ravi");
+        
     }
 }
