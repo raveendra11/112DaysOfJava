@@ -12,6 +12,7 @@ public class Arraylist{
         al.add(true);
         al.add('I');
         al.add(1.9);
+        al.add("Ravi");
 
         Iterator itr = al.iterator();
         while (itr.hasNext()){
