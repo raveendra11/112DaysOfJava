@@ -11,6 +11,7 @@ public class ForEach {
         gamesList.add("Chess");
         gamesList.add("Hockey");
         gamesList.add("Badminton");
+        gamesList.add("Table Tennis");
         gamesList.forEach(System.out::println);
     }
 }
