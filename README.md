@@ -1,2 +1,2 @@
 ## 112DaysOfJava 
-A refresher on Java & Its framework.
+A refresher on Java & Its Spring framework.
