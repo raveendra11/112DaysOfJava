@@ -14,5 +14,6 @@ public class This {
 
     public static void main(String[] args) {
         This object = new This(27,"Ishu");
+        This object1 = new This(27,"Ravi");
     }
 }
