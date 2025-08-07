@@ -8,6 +8,7 @@ class Generics{
         ArrayList<String> list=new ArrayList<String>();
         list.add("rahul");
         list.add("jai");
+        list.add("Ishu");
 
         String s=list.get(1);
         System.out.println("element is: "+s);
