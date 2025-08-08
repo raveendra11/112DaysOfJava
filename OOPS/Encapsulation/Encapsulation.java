@@ -37,6 +37,9 @@ public class Encapsulation {
             object.setName("Ishu");
             object.setAge(27);
             object.sethasJob(true);
+            object.setName("Ravi");
+            object.setAge(27);
+            object.sethasJob(true);
         System.out.println("My name is "+object.getName()+" and I am "+object.getAge()+" years old"+", a "+object.gethasJob()+" Worker!");
     }
 }
