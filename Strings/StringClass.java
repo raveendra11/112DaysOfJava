@@ -7,6 +7,7 @@ public class StringClass {
         String firstName = "Ishu"; //in SCP area
         String lastName = new String("Ishu"); //Stored in Heap area
 String name = "Ravi";
+String lastname = new String("Pujari")
 
         System.out.println(firstName);
         System.out.println(lastName);
