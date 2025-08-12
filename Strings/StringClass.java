@@ -3,11 +3,14 @@ package Strings;
 public class StringClass {
 
     public static void main(String[] args) {
-
-        String firstName = "Ishu"; //in SCP area
-        String lastName = new String("Ishu"); //Stored in Heap area
-String name = "Ravi";//in SCP area
-String lastname = new String("Pujari");  //Stored in Heap area
+        //in SCP area
+        String firstName = "Ishu"; 
+        //Stored in Heap area
+        String lastName = new String("Ishu"); 
+        //in SCP area
+        String name = "Ravi";
+        //Stored in Heap area
+        String lastname = new String("Pujari");  
 
         System.out.println(firstName);
         System.out.println(lastName);
