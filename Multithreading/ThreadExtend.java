@@ -18,7 +18,7 @@ public class ThreadExtend extends Thread {
         int i = 0;
 
         while (true) {
-            System.out.println(i+"World");
+            System.out.println(i+"Ishu");
             i++;
         }
     }
